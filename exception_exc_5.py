@@ -13,11 +13,14 @@ try:
     div=round(first_num/second_num,2)
     print(f"Addition: {add}, Substraction: {sub}, Multiplication: {mul}, Division: {div}")
     print(dist["A4"])
-
-except (SyntaxError,TypeError,NameError,IndexError,KeyError,ValueError,AttributeError,ZeroDivisionError,ImportError ) as e:
+    print("char" + first_num)
+  
+except (KeyError,ValueError,ZeroDivisionError) as e:
     print("exception description: ",e)
     print("exception type: ",type(e))
     print("exception class: ",e.__class__)
     print("exception class name: ",e.__class__.__name__)
     print("exception document: ",e.__doc__)
-                
+except:
+    ## if any exception occurs out of the list mentioned above will print by defalut this exception block
+    print("This is default exception")                
