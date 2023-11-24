@@ -1,5 +1,5 @@
-## This repository includes code for exception handling.
+## this repository includes code for exception handling.
 
-## Created multiple .py files in "Visual Studio Code" and used conda base environment.
+## created multiple .py files in "Visual Studio Code" and used conda base environment.
 
-## Examples with singel exception handling and multiple exception handling.
+## try and exception with singel exception block and multiple exception block. 
